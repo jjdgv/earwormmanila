@@ -1,6 +1,6 @@
 import React from 'react'
-import aboutSec1Bg from '../../../assets/aboutsec1.png'
-import sec1Img from '../../../assets/sec1img.png'
+import aboutSec1Bg from '../../../assets/AboutSec1.png'
+import sec1Img from '../../../assets/Sec1Img.png'
 
 const AboutHero = () => (
   <section 

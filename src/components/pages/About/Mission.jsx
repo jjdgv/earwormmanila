@@ -1,8 +1,8 @@
 import React from 'react'
-import aboutSec2Bg from '../../../assets/aboutsec2.png'
-import sec2Img1 from '../../../assets/sec2img1.png'
-import sec2Img2 from '../../../assets/sec2img2.png'
-import sec2Img3 from '../../../assets/sec2img3.png'
+import aboutSec2Bg from '../../../assets/AboutSec2.png'
+import sec2Img1 from '../../../assets/Sec2Img1.png'
+import sec2Img2 from '../../../assets/Sec2Img2.png'
+import sec2Img3 from '../../../assets/Sec2Img3.png'
 
 const Feature = ({ title, description, img, alt }) => (
   <div className="relative rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group">
