@@ -52,10 +52,10 @@ const CustomOrderForm = () => {
 
       const templateParams = {
         to_email: EMAIL_TO,
-        name: formData.name,
+        user_name: formData.name,
         email: formData.email,
-        title: formData.artistAlbum, 
         genre_type: formData.genreType,
+        artist_album: formData.artistAlbum,
         format_details: formData.formatDetails
       }
       
