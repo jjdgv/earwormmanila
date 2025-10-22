@@ -2,14 +2,8 @@ import React from 'react'
 
 const Filter = ({ onFilterChange }) => {
   const filterOptions = [
-    { value: 'all', label: 'All' },
-    { value: 'vinyl', label: 'Vinyl' },
-    { value: 'cd', label: 'CD' },
-    { value: 'cassette', label: 'Cassette' },
     { value: 'price-low', label: 'Price: Low to High' },
     { value: 'price-high', label: 'Price: High to Low' },
-    { value: 'newest', label: 'Newest First' },
-    { value: 'oldest', label: 'Oldest First' }
   ]
 
   return (
