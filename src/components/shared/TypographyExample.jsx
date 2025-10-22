@@ -46,17 +46,18 @@ const TypographyExample = () => {
         <h2>UI Elements</h2>
         <div className="space-y-3">
           <nav className="flex space-x-6">
-            <a href="#" className="font-heading font-medium hover:text-gray-600">records</a>
-            <a href="#" className="font-heading font-medium hover:text-gray-600">custom orders</a>
-            <a href="#" className="font-heading font-medium hover:text-gray-600">about</a>
+            <a href="#" className="font-medium hover:text-gray-600" style={{fontFamily: 'Montserrat, sans-serif'}}>records</a>
+            <a href="#" className="font-medium hover:text-gray-600" style={{fontFamily: 'Montserrat, sans-serif'}}>custom orders</a>
+            <a href="#" className="font-medium hover:text-gray-600" style={{fontFamily: 'Montserrat, sans-serif'}}>about</a>
           </nav>
-          <button className="bg-black text-white px-6 py-2 rounded-lg font-heading font-medium">
+          <button className="bg-black text-white px-6 py-2 rounded-lg font-medium" style={{fontFamily: 'Montserrat, sans-serif'}}>
             Shop Now
           </button>
-          <label className="block font-body font-medium">Email Address</label>
+          <label className="block font-medium" style={{fontFamily: 'Inter, sans-serif'}}>Email Address</label>
           <input 
             type="email" 
-            className="border border-gray-300 rounded px-3 py-2 font-body"
+            className="border border-gray-300 rounded px-3 py-2"
+            style={{fontFamily: 'Inter, sans-serif'}}
             placeholder="Enter your email"
           />
         </div>
